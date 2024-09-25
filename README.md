@@ -1,5 +1,5 @@
 # 使用
-
+下载源码直接copy自定义View文件即可
 # 演示
 
 ![演示gif](https://github.com/superSp/RulerView/blob/master/RulerViewGif.gif)
