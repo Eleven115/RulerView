@@ -1,4 +1,19 @@
 # 使用
+
+> 在根build.gradle 中添加
+````
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://jitpack.io' }
+
+    }
+}
+````
+>在module的build.gradle中添加
+
+`implementation 'com.github.superSp:RulerView:v1.5'`
+
 # 示例
 ````
 <com.lsp.RulerView
@@ -30,6 +45,11 @@
         lsp:unit="kg"
         lsp:unitColor="#50b586"
         lsp:unitTextSize="10sp" />
+````
+
+# 实现思路以及流程
+[我的简书地址](http://www.jianshu.com/p/baf143364e04)
+
 # 演示
 
 ![演示gif](https://github.com/superSp/RulerView/blob/master/RulerViewGif.gif)
